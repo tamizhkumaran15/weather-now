@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Now</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Aurora background -->
+    <div class="bg-aurora"></div>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="logo">Weather <span>Now</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#climate">Climate</a></li>
+        <li><a href="#climate-names">Climate Names</a></li>
+        <li><a href="#about">About Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Home -->
+    <section id="home" class="section home">
+      <h1>Weather Now</h1>
+      <p>Check live weather conditions anywhere in the world.</p>
+
+      <div class="search-row">
+        <div class="search-box">
+          <input type="text" id="cityInput" placeholder="Enter city name..." />
+          <button id="locateBtn" class="btn ghost">Locate Me</button>
+        </div>
+        <div class="controls">
+          <button id="searchBtn" class="btn">Check Weather</button>
+          <select id="refreshSelect">
+            <option value="10000">10s</option>
+            <option value="30000" selected>30s</option>
+            <option value="60000">1m</option>
+          </select>
+          <span id="status" class="status-pill">Idle</span>
+        </div>
+      </div>
+
+      <div class="quick-chips">
+        <button class="chip" data-city="New York">New York</button>
+        <button class="chip" data-city="London">London</button>
+        <button class="chip" data-city="Tokyo">Tokyo</button>
+        <button class="chip" data-city="Bengaluru">Bengaluru</button>
+        <button class="chip" data-city="Sydney">Sydney</button>
+        <button class="chip" data-city="Paris">Paris</button>
+      </div>
+
+      <!-- Summary -->
+      <div class="summary">
+        <img id="summaryIcon" class="wxicon" src="" alt="" />
+        <div class="summary-text">
+          <strong id="place">—</strong>
+          <small id="descr">Waiting...</small>
+        </div>
+        <span class="temp-badge" id="tempBadge">-- °C</span>
+      </div>
+    </section>
+
+    <!-- Weather cards -->
+    <section id="climate" class="section weather-section">
+      <h2>Current Climate Data</h2>
+      <div class="weather-cards">
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/temperature.png"
+          />
+          <h3>Temperature</h3>
+          <p id="temperature">-- °C</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/atmospheric-pressure.png"
+          />
+          <h3>Pressure</h3>
+          <p id="pressure">-- hPa</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/temperature-sensitive.png"
+          />
+          <h3>Real Feel</h3>
+          <p id="realFeel">-- °C</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/hygrometer.png"
+          />
+          <h3>Humidity</h3>
+          <p id="humidity">-- %</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/sunrise.png"
+          />
+          <h3>Sunrise / Sunset</h3>
+          <p id="sunTimes">-- / --</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/rain.png"
+          />
+          <h3>Rainfall & Wind</h3>
+          <p id="rainWind">-- mm | --</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Climate names -->
+    <section id="climate-names" class="section climate-names">
+      <h2>Climate Names</h2>
+      <div class="climate-cards">
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/palm-tree.png"
+          />
+          <h3>Tropical</h3>
+          <p>Hot, humid, heavy rainfall.</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/cactus.png"
+          />
+          <h3>Arid</h3>
+          <p>Dry, desert-like climate.</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/deciduous-tree.png"
+          />
+          <h3>Temperate</h3>
+          <p>Mild weather with seasons.</p>
+        </div>
+        <div class="card">
+          <img
+            class="card-icon"
+            src="https://img.icons8.com/ios-filled/100/00bfff/iceberg.png"
+          />
+          <h3>Polar</h3>
+          <p>Freezing cold climate zones.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <h2>About Us</h2>
+      <p>
+        Weather Now provides real-time weather data powered by Open-Meteo. Fully
+        free and privacy friendly.
+      </p>
+    </section>
+
+    <!-- Toast -->
+    <div id="toast" class="toast"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
