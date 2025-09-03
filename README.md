@@ -17,3 +17,5 @@ It shows real-time weather updates for any city you search.
 1. Clone this repository:
    ```bash
    git clone https://github.com/tamizhkumar15/weather-now.git
+## 🌐 Live Demo
+[Click here to view Weather Now](https://tamizhkumar15.github.io/weather-now/)
