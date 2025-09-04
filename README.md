@@ -36,28 +36,30 @@ This project is licensed under a Proprietary License.
 📌 See the full LICENSE
 ---
 
-📧 Contact
+📧 Contact  
 
 For collaboration or licensing inquiries, contact:
 
 D. Tamizhkumaran
-📩 [tamizhkumaran1777@gmail.com]
+📩 [tamizhkumaran1777@gmail.com](mailto:tamizhkumaran1777@gmail.com)
+
 ---
 
 📂 Project Structure:
 
 Weather-Now-Web-App/
 │
-├── .codesandbox/         # Configuration files for deployment on CodeSandbox
-├── .eslintrc.json        # Linting rules for JavaScript
-├── .gitignore            # Git ignore rules
-├── LICENSE               # Proprietary license file
-├── README.md             # Project documentation
+├── .codesandbox/        # Configuration files for deployment on CodeSandbox
+├── .eslintrc.json       # Linting rules for JavaScript
+├── .gitignore           # Git ignore rules
+├── LICENSE              # Proprietary license file
+├── README.md            # Project documentation
 │
-├── index.html            # Main HTML file (entry point)
-├── style.css             # CSS file for styling (responsive + animations)
-├── script.js             # JavaScript file (API integration + UI logic)
-├── package.json          # Project metadata & dependencies
+├── index.html           # Main HTML file (entry point)
+├── style.css            # CSS file for styling (responsive + animations)
+├── script.js            # JavaScript file (API integration + UI logic)
+├── package.json         # Project metadata & dependencies
+
 ---
 
 ## 🛠️ How to Run Locally
