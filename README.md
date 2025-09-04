@@ -1,5 +1,6 @@
 # Weather Now 🌦️
 Author: D. Tamizhkumaran
+
 ![License](https://img.shields.io/badge/License-Proprietary-blue.svg)
 
 A simple live weather application built with **HTML, CSS, and JavaScript**, using the [Open-Meteo API](https://open-meteo.com/).  
