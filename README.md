@@ -63,4 +63,4 @@ Weather-Now-Web-App/
    ```bash
    git clone https://github.com/tamizhkumar15/weather-now.git
 ## 🌐 Live Demo
-[Click here to view Weather Now](https://tamizhkumar15.github.io/weather-now/)
+[Click here to view Weather Now](https://tamizhkumaran15.github.io/weather-now/)
