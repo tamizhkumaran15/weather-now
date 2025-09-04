@@ -50,16 +50,12 @@ D. Tamizhkumaran
 
 Weather-Now-Web-App/
 
-├── .codesandbox/        # Configuration files for deployment on CodeSandbox
-├── .eslintrc.json       # Linting rules for JavaScript
-├── .gitignore           # Git ignore rules
-├── LICENSE              # Proprietary license file
-├── README.md            # Project documentation
-├── index.html           # Main HTML file (entry point)
-├── style.css            # CSS file for styling (responsive + animations)
-├── script.js            # JavaScript file (API integration + UI logic)
-├── package.json         # Project metadata & dependencies
-
+├── index.html
+├── style.css
+├── script.js
+├── package.json
+├── LICENSE
+├── README.md
 ---
 
 ## 🛠️ How to Run Locally
