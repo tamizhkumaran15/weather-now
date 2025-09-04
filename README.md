@@ -8,7 +8,7 @@ It shows real-time weather updates for any city you search.
 
 ---
 
-## 🚀 Features
+🚀 Features
 - 🌍 Search weather by city name
 - 🌡️ Shows temperature, humidity, and wind speed
 - 📱 Responsive design for desktop & mobile
@@ -17,12 +17,10 @@ It shows real-time weather updates for any city you search.
 ---
 
 🛠️ Tech Stack
+- Frontend: HTML, CSS (responsive + animations), JavaScript  
+- API: Open-Meteo API  
+- Deployment: GitHub Pages / CodeSandbox  
 
-Frontend: HTML, CSS (responsive + animations), JavaScript
-
-API: Open-Meteo API
-
-Deployment: GitHub Pages / CodeSandbox
 ---
 
 🔒 License
@@ -41,11 +39,13 @@ This project is licensed under a Proprietary License.
 📧 Contact
 
 For collaboration or licensing inquiries, contact:
+
 D. Tamizhkumaran
 📩 [tamizhkumaran1777@gmail.com]
 ---
 
 📂 Project Structure:
+
 Weather-Now-Web-App/
 │
 ├── .codesandbox/         # Configuration files for deployment on CodeSandbox
