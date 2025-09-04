@@ -41,6 +41,7 @@ This project is licensed under a Proprietary License.
 For collaboration or licensing inquiries, contact:
 
 D. Tamizhkumaran
+
 📩 [tamizhkumaran1777@gmail.com](mailto:tamizhkumaran1777@gmail.com)
 
 ---
@@ -48,13 +49,12 @@ D. Tamizhkumaran
 📂 Project Structure:
 
 Weather-Now-Web-App/
-│
+
 ├── .codesandbox/        # Configuration files for deployment on CodeSandbox
 ├── .eslintrc.json       # Linting rules for JavaScript
 ├── .gitignore           # Git ignore rules
 ├── LICENSE              # Proprietary license file
 ├── README.md            # Project documentation
-│
 ├── index.html           # Main HTML file (entry point)
 ├── style.css            # CSS file for styling (responsive + animations)
 ├── script.js            # JavaScript file (API integration + UI logic)
