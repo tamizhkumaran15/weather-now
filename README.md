@@ -50,12 +50,12 @@ D. Tamizhkumaran
 
 Weather-Now-Web-App/
 
-├── index.html
-├── style.css
-├── script.js
-├── package.json
-├── LICENSE
-├── README.md
+- index.html
+- style.css
+- script.js
+- package.json
+- LICENSE
+- README.md
 ---
 
 ## 🛠️ How to Run Locally
